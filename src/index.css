@@ -189,8 +189,7 @@ Menu
 .menu-item {
   display: grid;
   gap: 1rem 2rem;
-  min-width: 35rem;
-  max-width: 35rem;
+  max-width: 25rem;
 }
 .photo {
   object-fit: cover;
@@ -221,10 +220,11 @@ Menu
   .menu-item {
     grid-template-columns: 225px 1fr;
     gap: 0 1.25rem;
-    max-width: 40rem;
+    min-width: 35rem;
+    max-width: 35rem;
   }
   .photo {
-    height: 175px;
+    height: 150px;
   }
 }
 @media screen and (min-width: 1200px) {
