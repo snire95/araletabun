@@ -1,3 +1,48 @@
+import React from 'react'
+import { FaWhatsapp, FaFacebook, FaInstagram } from 'react-icons/fa'
+export const links = [
+  {
+    id: 1,
+    url: '/צור-קשר',
+    text: 'צור קשר',
+  },
+  {
+    id: 2,
+    url: '/קצת-עלינו',
+    text: 'קצת עלינו',
+  },
+  {
+    id: 3,
+    url: '/התפריט-שלנו',
+    text: 'התפריט שלנו',
+  },
+  {
+    id: 4,
+    url: '/',
+    text: 'דף הבית',
+  },
+]
+
+export const social = [
+  {
+    id: 1,
+    url: 'https://www.facebook.com/Araletabun',
+    icon: <FaFacebook />,
+  },
+  {
+    id: 2,
+    url: 'https://wa.me/972547855333?text=הי+אשמח+לבצע+הזמנה+',
+    icon: <FaWhatsapp />,
+  },
+  {
+    id: 3,
+    url: 'https://www.instagram.com/araletabun/',
+    icon: <FaInstagram />,
+  },
+
+]
+
+
 const menu = [
   {
     id: 1,

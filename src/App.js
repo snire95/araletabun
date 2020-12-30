@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Menu from './Menu';
+import Navbar from './Navbar'
 import Categories from './Categories';
 import items from './data';
 
@@ -19,6 +20,7 @@ function App() {
 
   return (
     <main>
+      <Navbar />
       <section className='menu section'>
         <div className= 'title'>
           <h1>ארל'ה פיצה</h1>
