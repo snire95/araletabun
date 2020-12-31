@@ -159,7 +159,7 @@ nav {
 }
 .nav-toggle:hover {
   color: var(--clr-primary-1);
-  transform: rotate(90deg);
+  transform: rotate(180deg);
 }
 .logo {
   height: 40px;
@@ -179,9 +179,7 @@ nav {
   color: var(--clr-primary-5);
   padding-left: 1.5rem;
 }
-.social-icons {
-  display: none;
-}
+
 .links-container {
   height: 0;
   overflow: hidden;
@@ -218,6 +216,9 @@ nav {
   .links a:hover {
     padding: 0;
     background: transparent;
+  }
+  .social-icons {
+    display: none;
   }
   .social-icons {
     display: flex;

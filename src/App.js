@@ -20,6 +20,7 @@ function App() {
 
   return (
     <main>
+
       <Navbar />
       <section className='menu section'>
         <div className= 'title'>

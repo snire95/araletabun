@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaWhatsapp, FaFacebook, FaInstagram } from 'react-icons/fa'
+import { FaWhatsapp, FaFacebook, FaInstagram, FaTwitter } from 'react-icons/fa'
 export const links = [
   {
     id: 1,
@@ -39,7 +39,6 @@ export const social = [
     url: 'https://www.instagram.com/araletabun/',
     icon: <FaInstagram />,
   },
-
 ]
 
 
