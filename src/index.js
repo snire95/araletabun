@@ -15,10 +15,16 @@ ReactDOM.render(
             <Navbar />
 
             <Route exact path= '/'>
-                  <div>snir</div>
+                  <App />
             </Route>
+            <Route exact path= '/צור-קשר'>
+                  <App />
+            </Route>   
             <Route exact path= '/התפריט-שלנו'>
-            <App />
+                  <App />
+            </Route>            
+            <Route exact path= '/קצת-עלינו'>
+                  <App />
             </Route>
       </Router>
       </React.StrictMode>,
