@@ -7,7 +7,7 @@ import items from './data';
 
 const allCategories = ['כל המנות',...new Set(items.map((item) => item.category))]
 console.log(allCategories)
-function App() {
+function manuPage() {
   const [menuItems, setMenuItems] = useState(items);
   const [categories, setCategories] = useState(allCategories);
   const filterItems = (category) => {
@@ -24,7 +24,7 @@ function App() {
       {/* <Navbar /> */}
       <section className='menu section'>
         <div className= 'title'>
-          <h1>אהרל'ה פיצה</h1>
+          <h1>ארל'ה פיצה</h1>
           <h2>התפריט שלנו</h2>
           <div className='underline'></div>       
         </div>
@@ -35,5 +35,6 @@ function App() {
   )
 }
 
-export default App;
+export default manuPage;
+
 

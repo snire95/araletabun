@@ -1,8 +1,8 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { FaBars } from 'react-icons/fa';
-import { links, social } from './data';
-import './Navbar.css';
+import { links } from './data';
 import Icons from './icons';
+import './Navbar.css';
 
 
 import LOGO2 from './LOGO2.svg';
@@ -25,6 +25,7 @@ const Navbar = () => {
   return (
     <nav>
       <div className='nav-center'>
+
         <div className='nav-header'>
           <img src={LOGO2} className='logo' alt='LOGO2' />
           <button className='nav-toggle' onClick={toggleLinks}>
@@ -46,7 +47,6 @@ const Navbar = () => {
           </ul>
 
         </div>
-
       </div>
     </nav>
   );

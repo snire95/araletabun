@@ -5,11 +5,11 @@ import './Navbar.css';
 
 const Icons = () => {
   return (
-        <ul className='social-icons'>
+        <ul className='row'>
           {social.map((socialIcon) => {
             const { id, url, icon } = socialIcon;
             return (
-              <li key={id}>
+              <li className='social-icons' key={id}>
                 <a href={url}>{icon} </a>
               </li>
             );
