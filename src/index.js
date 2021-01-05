@@ -13,14 +13,12 @@ ReactDOM.render(
       <Router>
 
             <Navbar />
-
             <Route exact path= '/'>
-                  <App />
             </Route>
             <Route exact path= '/צור-קשר'>
                   <App />
             </Route>   
-            <Route exact path= '/התפריט-שלנו'>
+            <Route exact path= '/menu'>
                   <App />
             </Route>            
             <Route exact path= '/קצת-עלינו'>

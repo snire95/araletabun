@@ -13,7 +13,7 @@ export const links = [
   },
   {
     id: 3,
-    url: '/התפריט-שלנו',
+    url: '/menu',
     text: 'התפריט שלנו',
   },
   {
