@@ -31,6 +31,7 @@ const Navbar = () => {
           <button className='nav-toggle' onClick={toggleLinks}>
             <FaBars />
           </button>
+
         </div>
         <div className='links-container' ref={linksContainerRef}>
           <ul className='links' ref={linksRef}>
