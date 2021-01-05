@@ -15,7 +15,6 @@ ReactDOM.render(
             <Navbar />
 
             <Route exact path= '/'>
-                  <App />
             </Route>
             <Route exact path= '/צור-קשר'>
                   <App />
