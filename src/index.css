@@ -186,6 +186,22 @@ Menu
   gap: 3rem 2rem;
   justify-items: center;
 }
+.logo-main {
+  opacity: 0.6;
+}
+
+.logo-main:hover {
+  opacity: 1;
+}
+
+.center {
+  width: 90vw;
+  margin: 0 auto;
+  max-width: 1170px;
+  display: grid;
+  gap: 3rem 2rem;
+  justify-items: center;
+}
 .menu-item {
   display: grid;
   gap: 1rem 2rem;

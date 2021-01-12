@@ -138,7 +138,7 @@ const menu = [
     category: 'שתיה',
     price: 12,
     img: './images/item-8.jpeg',
-    desc: `                                                       ליטר 1.5`,
+    desc: `  ליטר 1.5`,
   },
   {
     id: 13,
@@ -146,7 +146,7 @@ const menu = [
     category: 'שתיה',
     price: 9,
     img: './images/item-9.jpeg',
-    desc: `                                                               `,
+    desc: ``,
   },
     {
     id: 14,
